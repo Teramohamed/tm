@@ -1,0 +1,82 @@
+/*le selecteur et la proprieté la plus proche de la phrase prend la couleur*/
+* {
+   margin:0;
+   padding:0;
+}
+
+body{
+   background-color: aliceblue;
+   /*
+   background: url(../pour_ma_premiere_page.jpg) center/cover;
+   color:rgb(0, 53, 53);
+   min-height: 100vh;   
+   background-attachment: fixed;
+   */
+
+ /* background:linear-gradient(to right blue,red,#fff);*/
+ 
+  /* background:radial-gradient(50px 50px,  blue,red,#fff);*/
+
+  
+  /*
+  Les prefice vendeur. 
+  
+  Lineaire
+   background:-webkit-linear-gradient(to left ,blue,red);
+   background:-moz-linear-gradient(to right ,blue,red);
+   background:-o-linear-gradient( to right ,blue,red);
+
+  Radial
+   background:-webkit-radial-gradient(50px 50px blue,red);
+   background:-moz-radial-gradient(50px 50px blue,red);
+   background:-o-radial-gradient(50px 50px blue,red);
+  */
+}
+
+span{
+   display: block;
+   visibility: visible;
+   opacity:1;
+}
+
+caption{
+   text-decoration: underline;
+}
+
+table, th, td{
+   border: 2px solid black;
+   border-collapse: collapse;
+   caption-side: top;
+   empty-cells: show;
+}
+
+h1 {
+   color: rgb(90, 123, 185);
+   text-shadow: 3px 2px 2px rgb(12, 0, 0);
+   border: 2px solid rgb(0, 0, 0);
+   width: 600px;
+   padding-left:60px;
+   margin:30px 15px 10px 15px;
+   box-shadow: 2px 2px 4px rgb(0, 0, 0);
+   border-radius: 10px 0 10px 0;
+}
+
+h2 {
+   text-decoration: none;
+   text-transform: none;
+}
+
+.partie1/*,.partie2*/ {
+   margin: 10px;
+   font-size: 20px;
+   font-style: italic;
+   font-weight: normal;
+   line-height: 20.5px;
+   font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+   text-align: justify;
+   text-indent: 20px;
+   word-spacing: 5px;
+}
+strong{
+   font-weight: normal;
+}
